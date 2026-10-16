@@ -1,51 +1,46 @@
-> Current real-business case study: [Crumble Pakistan results](crumble-results.md). The Sweet Crumbs results below are retained as the earlier fictional demonstration.
-
 # Module 1 Project: AI Test Results
 
-**Business:** Sweet Crumbs, bakery, Lahore — fictional demonstration.
-**Audience:** university students and families.
-**Monthly budget:** 15000 PKR.
+**Business:** Crumble Pakistan, cookie bakery, Lahore case-study location.
 **Model:** qwen2.5:3b, local Ollama.
-**Settings:** temperature 0.2, num_ctx 4096, maximum generated tokens 450.
+**Assumed audience:** university students and families.
+**Assumed monthly budget:** 15000 PKR.
 
-These are actual model responses, preserved verbatim. Reviews were prepared with AI assistance. Testing for a real business is still pending.
+[Business facts and assumptions](crumble-business-profile.md) · [Actual script run](project-m1-run.txt)
+
+Independent student testing based on public information, without company involvement. Actual AI answers are preserved verbatim; evaluations were prepared with AI assistance. Temperature: 0.2; context allocation: 4096 tokens. Maximum output: 300 tokens for prompts 1, 2 and 4; 900 for the revised prompt 3. An earlier growth attempt was truncated; it was replaced by this complete retest, whose incorrect advice is evaluated honestly.
 
 ## Prompt 1: Marketing
 
 **Prompt:**
 
 ```text
-You are a social media writer for Sweet Crumbs, a bakery in Lahore.
+You are a social media writer for Crumble Pakistan, a cookie bakery in Lahore.
 Write one short Instagram post idea for university students and families in a friendly tone, with one call to action.
 Do not invent prices, products, opening hours, contact details or discounts; use placeholders if needed.
 ```
 
 **AI answer:**
 
-🌟 University Students & Families, Check Out Our Sweet Crumbs Bakes 🌟
+📸 Did you know that baking cookies is not just a fun activity, but also a great way to bond with family and friends? 🍪
 
-Hey there, sweeties! 🎂 If you're a university student or a family on the go, we've got a treat for you. 🏃‍♂️💨
+At Crumble Pakistan, we're celebrating the joy of baking with our delicious cookie mix. Perfect for those cozy nights in or as a thoughtful gift for your loved ones.
 
-We're launching a special "University & Family Day" where we're offering a delightful treat just for you. 🎁
+Why not treat yourself and your university students or families to a sweet adventure? 🌟
 
-Come by and grab a sweet from our bakery. It's perfect for those mid-semester breaks or anytime you need a little sweetness in your life. 🌟
+Let's bake together and create memories that last a lifetime. 🎉
 
-Don't forget to tag us and share your treats with us! 📸 #SweetCrumbs #UniversityBakery #FamilyDay
+#CrumblePakistan #BakingWithFriends #UniversityMoments #FamilyTime #SweetAdventures
 
-Where are you heading next? 🏠🎓 #UniversityLife #FamilyTime
+**Useful?** No, needs correction. It invents a cookie-mix product which was neither provided nor verified. It also has several calls to action. Ask for a short cookie post with one call to action and no unverified products.
 
-Happy baking and snacking! 🍰✨
-
-**Useful?** Needs revision. It invents a "University & Family Day" event despite the instruction not to invent details. It is long for a short post and includes several calls to action. Do not publish it as factual business content. Keep the bakery name and audience, remove the invented event, and ask for one short post with one call to action.
-
-**Evidence:** [Raw response](evidence/project-1.json); generated 2026-10-16T16:32:15.1464214Z; stop reason `stop`.
+[Raw response](evidence/crumble-1.json) · generated 2026-10-16T16:54:09.6943774Z · stop reason `stop`.
 
 ## Prompt 2: Customer Service
 
 **Prompt:**
 
 ```text
-You are the customer service manager of Sweet Crumbs, a bakery in Lahore serving university students and families.
+You are the customer service manager of Crumble Pakistan, a cookie bakery in Lahore serving university students and families.
 Write a polite reply of at most 80 words to a customer whose order arrived late.
 Apologise and ask them to contact the team privately with their order reference.
 Do not invent an explanation or promise a refund or discount without owner approval.
@@ -53,74 +48,42 @@ Do not invent an explanation or promise a refund or discount without owner appro
 
 **AI answer:**
 
-Dear Customer, 
+Dear Customer, we are sorry to hear that your order arrived late. We would like to assist you privately. Please share your order reference so we can look into this matter. Thank you for your understanding.
 
-We apologize for the delay in your order. Our team is working on it now. Please contact us privately with your order reference for any further assistance. 
+**Useful?** Yes, useful as a draft. It apologises, asks for the order reference privately, is under 80 words and avoids an invented reason or promise of compensation. Staff should check it before use.
 
-Thank you for your understanding.
-
-**Useful?** Partly useful. It is polite, brief, apologises, requests the order reference privately, and avoids promising compensation. However, "Our team is working on it now" asserts an unverified operational fact. Replace that with "Please send your order reference privately so we can check what happened."
-
-**Evidence:** [Raw response](evidence/project-2.json); generated 2026-10-16T16:32:25.150402Z; stop reason `stop`.
+[Raw response](evidence/crumble-2.json) · generated 2026-10-16T16:54:21.9925496Z · stop reason `stop`.
 
 ## Prompt 3: Growth
 
 **Prompt:**
 
 ```text
-You are a practical small-business AI adviser for Sweet Crumbs, a bakery in Lahore.
+You are a practical small-business AI adviser for Crumble Pakistan, a cookie bakery in Lahore.
 Suggest exactly 3 low-cost AI ideas to attract or serve university students and families within a total monthly budget of 15000 PKR.
+Keep the advice about Crumble Pakistan's cookie bakery, not a university cafeteria. Use 3 numbered items, at most 45 words each.
 Give a concrete first step for each idea. Label any costs as estimates requiring verification.
 Do not claim current tool prices or guaranteed results. Include local Ollama with qwen2.5:3b where useful.
 ```
 
 **AI answer:**
 
-Certainly! Here are three low-cost AI ideas to attract or serve university students and families within a total monthly budget of 15000 PKR. I'll provide a concrete first step for each idea, along with a rough estimate for verification.
+1. **Use ChatGPT for Social Media Engagement**: Create engaging content on Crumble Pakistan's social media profiles. First, verify ChatGPT's capabilities for creating engaging, educational, and promotional content for university students and families.
 
-### 1. **AI-Powered Recipe Recommendation System**
-**Objective:** Offer personalized recipe recommendations based on user preferences and dietary needs.
+2. **Implement Ollama for Customized Recommendations**: Use Ollama to generate personalized cookie recommendations based on user preferences. First, set up Ollama and test its accuracy in suggesting cookies that align with university student tastes and dietary restrictions.
 
-**First Step:** 
-- **Create a basic user profile:** Develop a simple web form or mobile app that collects basic information such as dietary preferences (vegan, gluten-free, etc.), favorite cuisines, and any allergies. This can be done using a local Ollama with qwen2.5:3b for initial setup and testing.
+3. **Leverage Qwen for Customer Support**: Integrate Qwen for quick and efficient customer support on Crumble Pakistan's website and social media. First, train Qwen on common queries and concerns from university students and families, ensuring quick and accurate responses.
 
-**Estimate:** 1000 PKR for basic form development and setup.
+**Useful?** Partly useful for brainstorming. The final retest gives three relevant ideas and first steps without truncation. However, it gives no costs, so it does not establish that setup and monthly operation fit 15000 PKR. Its phrase train Qwen needs clarification: supplying FAQ context is different from training weights. ChatGPT is an additional suggested tool, not evidence of another model tested here. Cookie recommendations involving dietary restrictions need verified product and allergen information and human review. Start with staff-assisted drafts, verify hardware and integration costs, and request a costed PKR plan before implementing.
 
-### 2. **AI Chatbot for University Students**
-**Objective:** Provide quick and personalized assistance to university students and their families.
-
-**First Step:** 
-- **Set up a basic chatbot:** Use a local Ollama with qwen2.5:3b to create a simple chatbot that can answer common questions about ordering, delivery, and special offers. Train the chatbot with a few common queries and responses.
-
-**Estimate:** 500 PKR for chatbot setup and initial training.
-
-### 3. **AI-Generated Social Media Content**
-**Objective:** Increase brand visibility and engagement through AI-generated social media posts.
-
-**First Step:** 
-- **Develop a content calendar:** Use a local Ollama with qwen2.5:3b to generate a content calendar for social media posts. The AI can suggest recipes, promotions, and educational content related to baking and nutrition. This will help in planning and scheduling posts.
-
-**Estimate:** 2000 PKR for content calendar generation and initial content creation.
-
-### Summary:
-- **AI-Powered Recipe Recommendation System:** 1000 PKR
-- **AI Chatbot for University Students:** 500 PKR
-- **AI-Generated Social Media Content:** 2000 PKR
-
-**Total Estimate:** 3500 PKR
-
-These ideas
-
-**Useful?** Useful as brainstorming only. It proposes three ideas and first steps, and the stated estimates sum to 3500 PKR, below the example budget. Those numbers are unverified inventions, not vendor quotes, and do not cover hardware, electricity or maintenance. The answer ends mid-sentence because the generation reached the 450-token cap. A recipe tool also needs careful handling of allergy information and is less relevant than basic order FAQs. A few example questions provide prompt context; they do not train model weights. Prefer the content-calendar idea, verify costs and business facts, and request a shorter revised answer before client use.
-
-**Evidence:** [Raw response](evidence/project-3.json); generated 2026-10-16T16:34:04.7117898Z; stop reason `length`.
+[Raw response](evidence/crumble-3.json) · generated 2026-10-16T17:03:23.7092791Z · stop reason `stop`.
 
 ## Prompt 4: WhatsApp (bonus)
 
 **Prompt:**
 
 ```text
-You are a friendly WhatsApp assistant for Sweet Crumbs, a bakery in Lahore serving university students and families.
+You are a friendly WhatsApp assistant for Crumble Pakistan, a cookie bakery in Lahore serving university students and families.
 Draft an acknowledgement of a new order enquiry in no more than 50 words.
 Ask what the customer needs and their preferred date. Use placeholders for unknown details.
 Do not claim an order is confirmed or invent availability, prices or delivery times.
@@ -128,8 +91,8 @@ Do not claim an order is confirmed or invent availability, prices or delivery ti
 
 **AI answer:**
 
-Hi Sweet Crumbs! Thanks for your order enquiry. What would you like to order and on what date?
+Hi there! Thanks for reaching out. Could you please let me know what you need and your preferred order date?
 
-**Useful?** Needs a small correction. It asks for the item and date and avoids invented prices or order confirmation, but greets the bakery ("Hi Sweet Crumbs!") instead of its customer. Replace the opening with "Hi! Thanks for contacting Sweet Crumbs."
+**Useful?** Yes, useful as a draft. It thanks the customer and asks what they need and their preferred date without inventing prices or confirming availability. Adding the business name would improve clarity.
 
-**Evidence:** [Raw response](evidence/project-4.json); generated 2026-10-16T16:34:12.9802005Z; stop reason `stop`.
+[Raw response](evidence/crumble-4.json) · generated 2026-10-16T16:55:28.7620956Z · stop reason `stop`.

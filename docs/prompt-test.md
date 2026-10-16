@@ -1,6 +1,6 @@
 # Lesson 1.4 stretch: actual prompt test
 
-**Business:** fictional bakery demonstration.
+**Exercise:** Lesson 1.4 generic bakery prompt; separate from the Crumble project case study.
 **Model:** qwen2.5:3b (local).
 **Generated at (UTC):** 2026-10-16T16:35:43.3892208Z
 
@@ -30,3 +30,7 @@ Given the budget constraint of 15,000 PKR per month, here are three AI solutions
 ## Review
 
 AI suggestions are brainstorming, not proof that an integration works or that a tool fits the budget. Verify prices, WhatsApp integration requirements, and business facts before implementation. Raw output and stop reason are in [evidence/lesson-04.json](evidence/lesson-04.json).
+
+The model reached its output token limit (`length`); the third suggestion is incomplete. This is evidence of testing, not a finished integration proposal.
+
+The model reached its output token limit (`length`); the third suggestion is incomplete. This is evidence of testing, not a finished integration proposal.

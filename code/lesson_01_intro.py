@@ -9,5 +9,5 @@ city = "Lahore"  # Example city for this exercise, not a claim about my hometown
 print(f"Name: {name}")
 print(f"Dream AI role: {dream_role}")
 print(f"Problem I want to solve: {business_problem}")
-print(f"Why: {reason}")
 print(f"{name} is building an example AI solution for businesses in {city}.")
+print(f"Why: {reason}")

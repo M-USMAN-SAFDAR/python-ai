@@ -18,6 +18,7 @@ Apologise and ask them to contact the team privately with their order reference.
 Do not invent an explanation or promise a refund or discount without owner approval."""
 growth_prompt = f"""You are a practical small-business AI adviser for {business_name}, a {business_type} in {city}.
 Suggest exactly 3 low-cost AI ideas to attract or serve {customers} within a total monthly budget of {budget} PKR.
+Keep the advice about {business_name}'s {business_type}, not a university cafeteria. Use 3 numbered items, at most 45 words each.
 Give a concrete first step for each idea. Label any costs as estimates requiring verification.
 Do not claim current tool prices or guaranteed results. Include local Ollama with qwen2.5:3b where useful."""
 # A WhatsApp draft is a useful extra task, but the owner must check all details.

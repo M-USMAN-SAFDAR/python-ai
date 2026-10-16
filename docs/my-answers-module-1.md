@@ -7,3 +7,6 @@ Record output predictions before running the snippets.
 1.2: Q1 __, Q2 __, Q3 __, Q4 __, Q5 __, Q6 __
 1.3: Q1 __, Q2 __, Q3 __, Q4 __, Q5 __, Q6 __
 1.4: Q1 __, Q2 __, Q3 __, Q4 __, Q5 __, Q6 __
+
+Lesson 1.5 short check: Q1 __, Q2 __, Q3 __
+Lesson 1.6 short check: Q1 __, Q2 __, Q3 __
