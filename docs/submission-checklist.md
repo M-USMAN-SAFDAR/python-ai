@@ -8,7 +8,7 @@
 - [x] README run commands, business value and model notes.
 - [x] Student-supplied genuine toolkit screenshot saved as docs/setup-check.png.
 - [x] Student-supplied genuine project screenshot saved as docs/project-m1-run.png and displayed in README. It shows the three required prompts; the bonus prompt is outside the capture.
-- [ ] Replace the fictional demonstration with one real business and repeat the project test.
+- [x] Run and test an independent Crumble Pakistan case study using public sources and clearly assumed audience and budget; see crumble-results.md. No owner validation or company involvement is claimed.
 - [ ] Attempt Quick Checks independently; reference answers are provided separately.
 - [ ] Practise the three-minute demo and explain the code without reading a prepared answer.
 - [x] Coursework pushed successfully to https://github.com/M-USMAN-SAFDAR/python-ai (main).

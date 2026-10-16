@@ -23,11 +23,11 @@ AI assistance was used to prepare this repository. Review the code and make sure
 
 ## Three-minute demo outline
 
-0:00–0:30: Explain that a small business owner needs help writing useful AI prompts. State clearly that Sweet Crumbs is a fictional demonstration.
+0:00–0:30: Explain that a business could use a tool for writing useful AI prompts. Introduce Crumble Pakistan as an independent student case study, based on public information and assumed audience and budget, without company involvement. The old Sweet Crumbs example is fictional.
 
-0:30–1:30: Run `uv run code/project_m1_prompt_kit.py`. Enter the five example details from business-example.md. Show the three required prompts and the bonus WhatsApp prompt.
+0:30–1:30: Run `uv run code/project_m1_prompt_kit.py`. Enter the five details from crumble-business-profile.md. Show the three required prompts and the bonus WhatsApp prompt.
 
-1:30–2:30: Show one actual Qwen result in project-m1-results.md. Explain one useful part and any invented or unverified claims. Do not describe pending tests as completed.
+1:30–2:30: Show one actual Qwen result in crumble-results.md. Explain one useful part and any invented or unverified claims. Do not describe model-generated claims as verified company facts.
 
 2:30–3:00: Explain how you could adapt this for a real shop. A future version could call Ollama automatically and validate the budget. Explain one code line in your own words.
 

@@ -1,3 +1,5 @@
+> Current real-business case study: [Crumble Pakistan results](crumble-results.md). The Sweet Crumbs results below are retained as the earlier fictional demonstration.
+
 # Module 1 Project: AI Test Results
 
 **Business:** Sweet Crumbs, bakery, Lahore — fictional demonstration.

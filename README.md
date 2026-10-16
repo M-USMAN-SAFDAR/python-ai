@@ -51,7 +51,9 @@ The student-supplied screenshot shows the three required prompts from a separate
 
 See [actual Qwen test results and honest evaluations](docs/project-m1-results.md), [run transcript](docs/project-m1-run.txt), and [demo preparation](docs/module-1-study-guide.md).
 
-Sweet Crumbs is a **fictional demonstration**, not a real client. Real-business testing remains to be done. Generated content contains errors documented in the evaluations and needs review before use.
+The current real-business case study is **Crumble Pakistan**, using public information and explicitly assumed campaign details. See the [business profile and sources](docs/crumble-business-profile.md), [Crumble test results](docs/crumble-results.md), and [actual run](docs/crumble-run.txt). This is independent student work, without company involvement or endorsement.
+
+The earlier Sweet Crumbs tests and screenshot are retained as a **fictional demonstration**. Generated content needs review before use.
 
 ## Submission status
 
@@ -59,7 +61,7 @@ Sweet Crumbs is a **fictional demonstration**, not a real client. Real-business 
 - The model profile's price is fictional arithmetic practice, not Ollama billing.
 - Independent Quick Check answers remain blank; [reference answers](docs/module-1-reference-answers.md) are separate study material.
 - Student-supplied genuine screenshots are saved in `docs/setup-check.png` and `docs/project-m1-run.png` and displayed above.
-- A real business test and the student's three-minute live demo remain pending.
+- A Crumble Pakistan case study uses public sources, an assumed audience and an assumed 15000 PKR budget. Direct business-owner validation and the student's three-minute live demo remain pending.
 - Review and understand every line before presenting this work.
 
 Course reference: https://github.com/the-schoolofai/python-ai
