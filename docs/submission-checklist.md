@@ -9,7 +9,7 @@ Audited on 16 October 2026 against the professor's message and the nine supplied
 | Own repository named python-ai | Present; GitHub API confirmed public, default branch main: https://github.com/M-USMAN-SAFDAR/python-ai |
 | Commit every small effort | Separate commits for tasks, project, fixes, screenshots and this audit. Actual commit dates are preserved. A future daily streak requires continuing work; no dates were fabricated. |
 | Read lessons in docs | All six supplied lessons now included unchanged in docs/course with attribution and a reading index. The student must do the reading. |
-| Do Quick Checks | Questions and an answer sheet are present, including the 1.5/1.6 short checks. **Student answers are still blank**; AI reference answers are separate. |
+| Do Quick Checks | Completed AI-assisted answers for the 1.1–1.4 quiz and all six lesson short checks are in my-answers-module-1.md, committed as `Module 1 quick checks`. This does not represent an independent student attempt. |
 | Complete Code Tasks | Implemented and run; details below. |
 | On-time submissions / leaderboard / classmates | Deadlines and leaderboard rules beyond the supplied text are not available. On-time status, participation and helping classmates cannot be certified from these files. |
 
@@ -57,7 +57,8 @@ Audited on 16 October 2026 against the professor's message and the nine supplied
 
 ## Student actions still required
 
-- [ ] Read the lessons and fill in my-answers-module-1.md with your own attempts.
+- [x] Complete the Quick Check answer file with AI assistance, including explanations and verified output snippets.
+- [ ] Student review: read the lessons and understand the completed answers before class.
 - [ ] Practise and deliver the three-minute demo; explain every submitted code line.
 - [ ] Share the public repository link with the professor before the actual deadline.
 - [ ] Recommended presentation improvement: capture a current Crumble project screenshot.

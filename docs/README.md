@@ -14,7 +14,7 @@ The documents in `course/` are the unchanged materials supplied by the professor
 For each lesson, read it, attempt the Quick Check, run its task and commit the work.
 
 - [Quick Checks for 1.1–1.4](course/module-1-quick-checks.md); 1.5 and 1.6 have checks in their lesson files
-- [Your answer sheet](my-answers-module-1.md) — not yet filled in
+- [Completed answer sheet](my-answers-module-1.md) — AI-assisted, with explanations and all six lesson short checks
 - [Code Task requirements](course/module-1-code-tasks.md)
 - [Project brief and marking rubric](course/module-1-project-brief.md)
 - [Current project results](project-m1-results.md)

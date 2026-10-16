@@ -7,7 +7,7 @@ Learning portfolio for **Python for AI**, following [the School of AI course](ht
 
 ## Read → Quick Check → Code Task
 
-Start with the [lesson and assignment index](docs/README.md). Course readings are in `docs/course/`; my scripts are in `code/`. Record your own answers in [my-answers-module-1.md](docs/my-answers-module-1.md).
+Start with the [lesson and assignment index](docs/README.md). Course readings are in `docs/course/`; my scripts are in `code/`. Completed [AI-assisted Quick Check answers](docs/my-answers-module-1.md) include the module quiz and all six lesson short checks.
 
 ## Run
 
@@ -64,3 +64,15 @@ See [toolkit checks](docs/setup-check.md), [first Ollama chat](docs/ollama-first
 See the [requirement-by-requirement audit](docs/submission-checklist.md). Scripts and AI tests are present; the student's own Quick Check attempts, lesson reading and live demo cannot be certified by repository files. AI-assisted [reference answers](docs/module-1-reference-answers.md) are separate study material. Understand every line before presenting.
 
 The 0.50 PKR token rate in the exercises is fictional practice pricing, not Ollama billing. Commit history records actual work; keep making new commits and pushes as you learn.
+
+## Commit messages
+
+Use the professor's exact messages for the named submissions:
+
+```text
+Python for AI
+Module 1 quick checks
+Module 1 Project: AI Prompt Kit
+```
+
+For individual tasks and later task fixes, use `Task <lesson>: <clear description>`, for example `Task 1.1: intro script`. Existing task commits follow this format; the project and Quick Check commits use their prescribed exact messages. Other earlier maintenance commits retain their descriptive messages and original dates.
