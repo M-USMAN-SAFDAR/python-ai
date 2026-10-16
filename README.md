@@ -35,11 +35,17 @@ For number questions, enter whole numbers without commas, e.g. `15000`. The scri
 
 See [actual script runs](docs/script-runs.md), [toolkit evidence](docs/setup-check.md), [first Ollama chat](docs/ollama-first-chat.md), and [model notes](docs/model-notes.md).
 
+![Toolkit versions](docs/setup-check.png)
+
 ## Module 1 Project: AI Prompt Kit
 
 A Python tool that turns business details into three ready-to-use AI prompts, plus a bonus WhatsApp enquiry prompt.
 
 **Run:** `uv run code/project_m1_prompt_kit.py`
+
+![Prompt Kit running](docs/project-m1-run.png)
+
+The student-supplied screenshot shows the three required prompts from a separate run with a 1500 PKR budget and university students as the audience. The saved AI tests use 15000 PKR and university students and families. The bonus fourth prompt is outside the screenshot.
 
 **Who would pay for this:** Small business owners who need help drafting specific AI prompts for marketing and customer service.
 
@@ -52,7 +58,7 @@ Sweet Crumbs is a **fictional demonstration**, not a real client. Real-business 
 - Scripts and model responses were prepared and tested with AI assistance.
 - The model profile's price is fictional arithmetic practice, not Ollama billing.
 - Independent Quick Check answers remain blank; [reference answers](docs/module-1-reference-answers.md) are separate study material.
-- Genuine screenshots `docs/setup-check.png` and `docs/project-m1-run.png` still need to be captured. Text transcripts are not screenshots.
+- Student-supplied genuine screenshots are saved in `docs/setup-check.png` and `docs/project-m1-run.png` and displayed above.
 - A real business test and the student's three-minute live demo remain pending.
 - Review and understand every line before presenting this work.
 

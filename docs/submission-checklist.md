@@ -6,8 +6,8 @@
 - [x] All four project prompts tested with qwen2.5:3b; raw responses and reviews saved.
 - [x] Lesson 1.4 prompt also tested with Qwen.
 - [x] README run commands, business value and model notes.
-- [ ] Capture genuine toolkit screenshot as docs/setup-check.png.
-- [ ] Capture genuine project screenshot as docs/project-m1-run.png; add it to README with `![Prompt Kit running](docs/project-m1-run.png)`.
+- [x] Student-supplied genuine toolkit screenshot saved as docs/setup-check.png.
+- [x] Student-supplied genuine project screenshot saved as docs/project-m1-run.png and displayed in README. It shows the three required prompts; the bonus prompt is outside the capture.
 - [ ] Replace the fictional demonstration with one real business and repeat the project test.
 - [ ] Attempt Quick Checks independently; reference answers are provided separately.
 - [ ] Practise the three-minute demo and explain the code without reading a prepared answer.

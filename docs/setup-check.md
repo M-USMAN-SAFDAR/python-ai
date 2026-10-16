@@ -26,4 +26,4 @@ ollama --version
 & "$env:USERPROFILE\.local\bin\claude.exe" --version
 ```
 
-A screenshot has not been supplied by this text report.
+A genuine student-supplied screenshot is saved as [setup-check.png](setup-check.png). It shows all six version commands succeeding in Command Prompt. The PowerShell commands above are an alternative way to reproduce the checks.
