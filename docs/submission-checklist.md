@@ -11,6 +11,7 @@
 - [ ] Replace the fictional demonstration with one real business and repeat the project test.
 - [ ] Attempt Quick Checks independently; reference answers are provided separately.
 - [ ] Practise the three-minute demo and explain the code without reading a prepared answer.
-- [ ] Confirm the files are visible in the public GitHub repository.
+- [x] Coursework pushed successfully to https://github.com/M-USMAN-SAFDAR/python-ai (main).
 
 The optional two-model comparison was not attempted because the requested model is qwen2.5:3b.
+
