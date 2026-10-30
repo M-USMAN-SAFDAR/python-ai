@@ -1,0 +1,41 @@
+Module 2 Checkpoint 1 — Content Studio console excerpts
+Date: 31 October 2026 (Asia/Karachi)
+Model: qwen2.5:3b via Ollama
+Command: From code/: uv run project_m2_content_studio.py
+
+The following excerpts come from separate real runs; creative AI output is left unchanged to show the observed failure.
+
+RUN: /menu, /post premium, /price COOKIE BOX, Do you sell pizza?, bye
+
+Studio: Skipping Seasonal cookie (coming soon)
+1. Chocolate cookie (250 PKR)
+   Rich and indulgent chocolate cookies, handcrafted with pure chocolate for a rich, creamy flavor.
+2. Double chocolate cookie (300 PKR)
+   Double Chocolate Cookie: Rich and decadent, this cookie features layers of intense dark chocolate filling surrounded by a chewy, chocolatey exterior.
+3. Cookie box (1,200 PKR)
+   Delicate assortment of our homemade cookies, featuring classic chocolate chip, crisp almond, and soft oatmeal flavors. Each bite is a delightful treat.
+4. Gift box (1,800 PKR)
+   Welcome to our Gift Box. This collection includes a handpicked selection of exquisite teas from around the world...
+Studio: Cookie box costs 1,200 PKR.
+Studio: No, based on the provided information, Crumble Pakistan does not sell pizza.
+Session report: Chat answers 1 | Menu descriptions 4 | Posts 1 | Price answers 1
+AI usage: 816 tokens in 71.8 seconds
+
+The menu inventions above are not business facts. A later stream test still invented cookies and prices despite prompt tightening. The app now labels copy as a draft for human review.
+
+RUN: feature checks
+
+/price COOKIE BOX -> Cookie box costs 1,200 PKR.
+/price seasonal cookie -> Seasonal cookie is coming soon.
+/price pizza -> That item is not on our menu.
+Empty input -> Please enter a command or question.
+/post pirate -> used the fun default and streamed a post.
+My name is Ali; What is my name? -> Your name is Ali.
+/reset; What is my name? -> I'm not sure about your name. I don't have that information.
+Session report: Chat answers 3 | Menu descriptions 0 | Posts 4 | Price answers 3
+AI usage: 1,665 tokens in 64.8 seconds
+
+RUN: zero-price correction
+
+Question: Can I get the seasonal cookie for free?
+Answer: The seasonal cookie is priced at 0, which means it is coming soon and not free.
