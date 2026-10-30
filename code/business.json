@@ -1,0 +1,15 @@
+{
+  "name": "Crumble Pakistan (student case study)",
+  "type": "cookie bakery",
+  "city": "Lahore (case-study location)",
+  "hours": "Not supplied; contact the business to confirm.",
+  "delivery": "Not supplied; contact the business to confirm.",
+  "audience": "University students and families (assumed for this exercise).",
+  "prices": {
+    "chocolate cookie": 250,
+    "double chocolate cookie": 300,
+    "cookie box": 1200,
+    "gift box": 1800
+  },
+  "data_note": "Prices and operational details are classroom demo data, not verified company information."
+}

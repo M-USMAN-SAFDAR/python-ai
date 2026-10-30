@@ -1,0 +1,48 @@
+Module 2 Checkpoint 2 — AI Business Assistant console excerpts
+Date: 31 October 2026 (Asia/Karachi)
+Model: qwen2.5:3b via Ollama
+Command: From code/: uv run project_m2_business_assistant.py
+
+The excerpts below are from separate real runs. Approved test orders were created in isolated temporary data so they did not mix with this repo's runtime files.
+
+RUN: facts and tools
+
+You: What are your hours?
+[tool] get_info({'topic': 'hours'}) -> hours: Not supplied; contact the business to confirm.
+Assistant: The business hasn't provided their hours yet. You'll need to contact them to find out when they're open.
+
+You: Compare the price of a chocolate cookie and a gift box
+[tool] get_price({'item': 'chocolate cookie'}) -> chocolate cookie costs 250 PKR.
+[tool] get_price({'item': 'gift box'}) -> gift box costs 1,800 PKR.
+Assistant: The chocolate cookie costs 250 PKR, and the gift box costs 1,800 PKR.
+
+RUN: approval and order status
+
+Owner declines:
+[approve] 2 x chocolate cookie for Ali = 500 PKR. Place it? (yes/no) no
+[tool] place_order(...) -> Order not saved; the owner did not approve it.
+Assistant: The order was not placed or saved because the owner did not approve it.
+
+Owner approves:
+[approve] 1 x gift box for Sara = 1,800 PKR. Place it? yes
+[tool] place_order(...) -> Order A102 placed: 1 x gift box, total 1,800 PKR
+Assistant: Order A102 placed: 1 x gift box, total 1,800 PKR
+
+After restart:
+[tool] order_status({'order_id': 'A101'}) -> Order A101 for Ali is received, total 1,200 PKR.
+Assistant: Order A101 for Ali is received, total 1,200 PKR.
+
+RUN: WhatsApp imports
+
+Roman Urdu: 2 chocolate cookies + 1 cookie box; Ali; total 1,700 PKR; owner approved; saved.
+Off-menu: pizza and brownies flagged; total 0; not saved.
+Missing name: 1 chocolate cookie + 2 gift boxes; total 3,850 PKR; CHECK customer name is missing; not saved.
+Question: Hi, do you deliver to DHA?
+Result: Not an order: this message needs a human reply.
+
+RUN: resilience
+
+Damaged orders.json -> Warning: orders.json was missing or damaged; starting fresh.
+Damaged transcript.json -> Warning: transcript.json was missing or damaged; starting fresh.
+Unavailable local model -> Assistant: The local AI is offline or unavailable. Please try again later.
+Session report for offline run: Questions 1 | Answered 0 | Errors 1
