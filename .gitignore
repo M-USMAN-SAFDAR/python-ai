@@ -1,6 +1,11 @@
 .venv/
+.uv-cache/
 __pycache__/
 *.py[cod]
 .env
 .env.*
 !.env.example
+/code/chat_history.json
+/code/errors.log
+/code/orders.json
+/code/transcript.json

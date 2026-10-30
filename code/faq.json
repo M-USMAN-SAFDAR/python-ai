@@ -1,0 +1,13 @@
+{
+  "name": "Crumble Pakistan (student case study)",
+  "type": "cookie bakery",
+  "city": "Lahore (case-study location)",
+  "hours": "Not supplied; contact the business to confirm.",
+  "delivery": "Not supplied; contact the business to confirm.",
+  "prices": {
+    "chocolate cookie": 250,
+    "double chocolate cookie": 300,
+    "cookie box": 1200
+  },
+  "data_note": "Exercise prices only; not current Crumble Pakistan prices."
+}
